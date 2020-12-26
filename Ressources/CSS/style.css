@@ -35,7 +35,7 @@ body {
 }
 
 .header__img--size {
-    width: 15rem;
+    width: 14rem;
     height: auto;
     position: absolute;
     margin: 0 0 0 2.4em;
@@ -53,7 +53,7 @@ body {
 
 .header__div1--flex {
     width: 100%;
-    padding: 1.7em 0 1.7em 15em;
+    padding: 1em 0 1em 15em;
     background: repeating-linear-gradient( 45deg, grey, grey 0.8px, transparent 0.8px, transparent 7px);
     display: flex;
     flex-direction: column;
@@ -81,6 +81,20 @@ body {
     padding: 0.2em 0 0.2em 1.5em;
     background-color: var(--gris);
     color: var(--blanc);
+}
+
+.main__li__h3--style {
+    list-style: square;
+    color: var(--gris);
+}
+
+.main__li--style {
+    list-style: disc;
+    color: var(--gris);
+}
+
+.span__font--black {
+    color: black;
 }
 
 .footer--flex {
